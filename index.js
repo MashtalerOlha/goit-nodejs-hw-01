@@ -1,5 +1,4 @@
 const { program } = require("commander");
-const { error } = require("console");
 const contactsOperation = require("./contacts");
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
